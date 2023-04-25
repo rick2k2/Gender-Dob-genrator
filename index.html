@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gender || Age</title>
+    <link rel="stylesheet" href="./index.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app_container">
+        <div class="app_left_side">
+           <label>Gender Generator</label>
+            <div class="name_container">
+                <select name="title" id="title">
+                    <option value="">Choose</option>
+                    <option value="Mr.">Mr.</option>
+                    <option value="Mrs.">Mrs.</option>
+                    <option value="Other">Other</option>
+                </select>
+                <input class="name_input" type="text" placeholder="Enter your name" id="name"/>
+            </div>
+            <input type="date" id="dob"/>
+            <div class="btn_div">
+                <button type="submit" onclick="getGenDob()">Submit</button>
+            </div>
+        </div>
+        <div class="app_right_side">
+            <label>HEY! Your</label>
+            <p id="name_op">Name is:</p>
+            <p id="gender_op">Gender is:</p>
+            <p id="age_op">Age is:</p>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

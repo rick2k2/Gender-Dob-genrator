@@ -18,17 +18,17 @@ function getGenDob(){
     if(title==="Mr."){
         name_op1.innerHTML = `Name: ${fullname}`;
         gender_op1.innerHTML = `Gender: Male`;
-        age_op1.innerHTML = `Age: ${age} year`;
+        age_op1.innerHTML = `Age: ${age} years`;
     }
     else if(title==="Mrs."){
         name_op1.innerHTML = `Name: ${fullname}`;
         gender_op1.innerHTML = "Gender: Female";
-        age_op1.innerHTML = `Age: ${age} year`;
+        age_op1.innerHTML = `Age: ${age} years`;
     }
     else if(title==="Other"){
         name_op1.innerHTML = `Name: ${fullname}`;
         gender_op1.innerHTML = "Gender: Not Specified";
-        age_op1.innerHTML = `Age: ${age} year`;
+        age_op1.innerHTML = `Age: ${age} years`;
     }
     else{
         name_op1.innerHTML = `Name: Error`;
